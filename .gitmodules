@@ -1,0 +1,390 @@
+[submodule "nginx"]
+	path = nginx
+	url = https://github.com/nginx/nginx.git
+[submodule "modules/nginx_accept_language_module"]
+	path = modules/nginx_accept_language_module
+	url = https://github.com/giom/nginx_accept_language_module.git
+[submodule "modules/afcgi"]
+	path = modules/afcgi
+	url = https://github.com/rsms/afcgi.git
+[submodule "modules/nginx_mod_akamai_g2o"]
+	path = modules/nginx_mod_akamai_g2o
+	url = https://github.com/kaltura/nginx_mod_akamai_g2o.git
+[submodule "modules/array-var-nginx-module"]
+	path = modules/array-var-nginx-module
+	url = https://github.com/openresty/array-var-nginx-module.git
+[submodule "modules/nginx-audio-track-for-hls-module"]
+	path = modules/nginx-audio-track-for-hls-module
+	url = https://github.com/flavioribeiro/nginx-audio-track-for-hls-module.git
+[submodule "modules/nginx-http-auth-digest"]
+	path = modules/nginx-http-auth-digest
+	url = https://github.com/atomx/nginx-http-auth-digest.git
+[submodule "modules/ngx_http_auth_pam_module"]
+	path = modules/ngx_http_auth_pam_module
+	url = https://github.com/sto/ngx_http_auth_pam_module.git
+[submodule "modules/ngx_auto_lib"]
+	path = modules/ngx_auto_lib
+	url = https://github.com/simplresty/ngx_auto_lib.git
+[submodule "modules/ngx_aws_auth"]
+	path = modules/ngx_aws_auth
+	url = https://github.com/anomalizer/ngx_aws_auth.git
+[submodule "modules/nginx-backtrace"]
+	path = modules/nginx-backtrace
+	url = https://github.com/alibaba/nginx-backtrace.git
+[submodule "modules/ngx_brotli"]
+	path = modules/ngx_brotli
+	url = https://github.com/google/ngx_brotli.git
+[submodule "modules/ngx_cache_purge"]
+	path = modules/ngx_cache_purge
+	url = https://github.com/FRiCKLE/ngx_cache_purge.git
+[submodule "modules/nginx_circle_gif"]
+	path = modules/nginx_circle_gif
+	url = https://github.com/evanmiller/nginx_circle_gif.git
+[submodule "modules/nginx-clojure"]
+	path = modules/nginx-clojure
+	url = https://github.com/nginx-clojure/nginx-clojure.git
+[submodule "modules/nginx_cookie_flag_module"]
+	path = modules/nginx_cookie_flag_module
+	url = https://github.com/AirisX/nginx_cookie_flag_module.git
+[submodule "modules/nginx-http-concat"]
+	path = modules/nginx-http-concat
+	url = https://github.com/alibaba/nginx-http-concat.git
+[submodule "modules/ngx_http_consistent_hash"]
+	path = modules/ngx_http_consistent_hash
+	url = https://github.com/replay/ngx_http_consistent_hash.git
+[submodule "modules/ngx_devel_kit"]
+	path = modules/ngx_devel_kit
+	url = https://github.com/simplresty/ngx_devel_kit.git
+[submodule "modules/ngx_upstream_jdomain"]
+	path = modules/ngx_upstream_jdomain
+	url = https://github.com/wdaike/ngx_upstream_jdomain.git
+[submodule "modules/drizzle-nginx-module"]
+	path = modules/drizzle-nginx-module
+	url = https://github.com/openresty/drizzle-nginx-module.git
+[submodule "modules/nginx-dynamic-etags"]
+	path = modules/nginx-dynamic-etags
+	url = https://github.com/kali/nginx-dynamic-etags.git
+[submodule "modules/ngx_http_dyups_module"]
+	path = modules/ngx_http_dyups_module
+	url = https://github.com/yzprofile/ngx_http_dyups_module.git
+[submodule "modules/ngx_dynamic_limit_req_module"]
+	path = modules/ngx_dynamic_limit_req_module
+	url = https://github.com/limithit/ngx_dynamic_limit_req_module.git
+[submodule "modules/echo-nginx-module"]
+	path = modules/echo-nginx-module
+	url = https://github.com/openresty/echo-nginx-module.git
+[submodule "modules/stream-echo-nginx-module"]
+	path = modules/stream-echo-nginx-module
+	url = https://github.com/openresty/stream-echo-nginx-module.git
+[submodule "modules/nginx-elastic-client"]
+	path = modules/nginx-elastic-client
+	url = https://github.com/Taymindis/nginx-elastic-client.git
+[submodule "modules/encrypted-session-nginx-module"]
+	path = modules/encrypted-session-nginx-module
+	url = https://github.com/openresty/encrypted-session-nginx-module.git
+[submodule "modules/ngx_http_enhanced_memcached_module"]
+	path = modules/ngx_http_enhanced_memcached_module
+	url = https://github.com/bpaquet/ngx_http_enhanced_memcached_module.git
+[submodule "modules/nginx-eval-module"]
+	path = modules/nginx-eval-module
+	url = https://github.com/openresty/nginx-eval-module.git
+[submodule "modules/NginxExecute"]
+	path = modules/NginxExecute
+	url = https://github.com/limithit/NginxExecute.git
+[submodule "modules/nginx-ey-balancer"]
+	path = modules/nginx-ey-balancer
+	url = https://github.com/ezmobius/nginx-ey-balancer.git
+[submodule "modules/nginx-upstream-fair"]
+	path = modules/nginx-upstream-fair
+	url = https://github.com/gnosek/nginx-upstream-fair.git
+[submodule "modules/ngx-fancyindex"]
+	path = modules/ngx-fancyindex
+	url = https://github.com/aperezdc/ngx-fancyindex.git
+[submodule "modules/nginx-http-footer-filter"]
+	path = modules/nginx-http-footer-filter
+	url = https://github.com/alibaba/nginx-http-footer-filter.git
+[submodule "modules/fcgi-function"]
+	path = modules/fcgi-function
+	url = https://github.com/Taymindis/fcgi-function.git
+[submodule "modules/ngx_http_footer_if_filter"]
+	path = modules/ngx_http_footer_if_filter
+	url = https://github.com/flygoast/ngx_http_footer_if_filter.git
+[submodule "modules/form-input-nginx-module"]
+	path = modules/form-input-nginx-module
+	url = https://github.com/calio/form-input-nginx-module.git
+[submodule "modules/ngx_http_geoip2_module"]
+	path = modules/ngx_http_geoip2_module
+	url = https://github.com/leev/ngx_http_geoip2_module.git
+[submodule "modules/nginx-gridfs"]
+	path = modules/nginx-gridfs
+	url = https://github.com/mdirolf/nginx-gridfs.git
+[submodule "modules/nginx-haskell-module"]
+	path = modules/nginx-haskell-module
+	url = https://github.com/lyokha/nginx-haskell-module.git
+[submodule "modules/headers-more-nginx-module"]
+	path = modules/headers-more-nginx-module
+	url = https://github.com/openresty/headers-more-nginx-module.git
+[submodule "modules/healthcheck_nginx_upstreams"]
+	path = modules/healthcheck_nginx_upstreams
+	url = https://github.com/cep21/healthcheck_nginx_upstreams.git
+[submodule "modules/traffic-accounting-nginx-module"]
+	path = modules/traffic-accounting-nginx-module
+	url = https://github.com/Lax/traffic-accounting-nginx-module.git
+[submodule "modules/iconv-nginx-module"]
+	path = modules/iconv-nginx-module
+	url = https://github.com/calio/iconv-nginx-module.git
+[submodule "modules/ngx_http_internal_redirect"]
+	path = modules/ngx_http_internal_redirect
+	url = https://github.com/flygoast/ngx_http_internal_redirect.git
+[submodule "modules/ip2location-nginx"]
+	path = modules/ip2location-nginx
+	url = https://github.com/chrislim2888/ip2location-nginx.git
+[submodule "modules/ipscrub"]
+	path = modules/ipscrub
+	url = https://github.com/masonicboom/ipscrub.git
+[submodule "modules/ngx_http_js_module"]
+	path = modules/ngx_http_js_module
+	url = https://github.com/peter-leonov/ngx_http_js_module.git
+[submodule "modules/ngx_http_upstream_ketama_chash"]
+	path = modules/ngx_http_upstream_ketama_chash
+	url = https://github.com/flygoast/ngx_http_upstream_ketama_chash.git
+[submodule "modules/nginx-auth-ldap"]
+	path = modules/nginx-auth-ldap
+	url = https://github.com/kvspb/nginx-auth-ldap.git
+[submodule "modules/limit_upload_rate"]
+	path = modules/limit_upload_rate
+	url = https://github.com/cfsego/limit_upload_rate.git
+[submodule "modules/nginx-limit-upstream"]
+	path = modules/nginx-limit-upstream
+	url = https://github.com/cfsego/nginx-limit-upstream.git
+[submodule "modules/ngx_log_if"]
+	path = modules/ngx_log_if
+	url = https://github.com/cfsego/ngx_log_if.git
+[submodule "modules/nginx-log-zmq"]
+	path = modules/nginx-log-zmq
+	url = https://github.com/alticelabs/nginx-log-zmq.git
+[submodule "modules/ngx_http_lower_upper_case"]
+	path = modules/ngx_http_lower_upper_case
+	url = https://github.com/replay/ngx_http_lower_upper_case.git
+[submodule "modules/lua-nginx-module"]
+	path = modules/lua-nginx-module
+	url = https://github.com/openresty/lua-nginx-module.git
+[submodule "modules/stream-lua-nginx-module"]
+	path = modules/stream-lua-nginx-module
+	url = https://github.com/openresty/stream-lua-nginx-module.git
+[submodule "modules/nginx_lua_module"]
+	path = modules/nginx_lua_module
+	url = https://github.com/alacner/nginx_lua_module.git
+[submodule "modules/lua-upstream-nginx-module"]
+	path = modules/lua-upstream-nginx-module
+	url = https://github.com/openresty/lua-upstream-nginx-module.git
+[submodule "modules/nginx_md5_filter"]
+	path = modules/nginx_md5_filter
+	url = https://github.com/kainswor/nginx_md5_filter.git
+[submodule "modules/memc-nginx-module"]
+	path = modules/memc-nginx-module
+	url = https://github.com/openresty/memc-nginx-module.git
+[submodule "modules/modjpeg-nginx"]
+	path = modules/modjpeg-nginx
+	url = https://github.com/ioppermann/modjpeg-nginx.git
+[submodule "ModSecurity"]
+	path = ModSecurity
+	url = https://github.com/SpiderLabs/ModSecurity.git
+[submodule "modules/ModSecurity-nginx"]
+	path = modules/ModSecurity-nginx
+	url = https://github.com/SpiderLabs/ModSecurity-nginx.git
+[submodule "owasp-modsecurity-crs"]
+	path = owasp-modsecurity-crs
+	url = https://github.com/SpiderLabs/owasp-modsecurity-crs.git
+[submodule "modules/ngx_mongo"]
+	path = modules/ngx_mongo
+	url = https://github.com/simplresty/ngx_mongo.git
+[submodule "modules/ngx_mruby"]
+	path = modules/ngx_mruby
+	url = https://github.com/matsumotory/ngx_mruby.git
+[submodule "modules/nchan"]
+	path = modules/nchan
+	url = https://github.com/slact/nchan.git
+[submodule "modules/naxsi"]
+	path = modules/naxsi
+	url = https://github.com/nbs-system/naxsi.git
+[submodule "modules/nginx-c-function"]
+	path = modules/nginx-c-function
+	url = https://github.com/Taymindis/nginx-c-function.git
+[submodule "modules/nginx-ip-blocker"]
+	path = modules/nginx-ip-blocker
+	url = https://github.com/tmthrgd/nginx-ip-blocker.git
+[submodule "modules/nginx-notice"]
+	path = modules/nginx-notice
+	url = https://github.com/kr/nginx-notice.git
+[submodule "modules/nginx_ocsp_proxy-module"]
+	path = modules/nginx_ocsp_proxy-module
+	url = https://github.com/kyprizel/nginx_ocsp_proxy-module.git
+[submodule "modules/nginx-openssl-version"]
+	path = modules/nginx-openssl-version
+	url = https://github.com/apcera/nginx-openssl-version.git
+[submodule "modules/incubator-pagespeed-ngx"]
+	path = modules/incubator-pagespeed-ngx
+	url = https://github.com/apache/incubator-pagespeed-ngx.git
+[submodule "modules/ngx_php"]
+	path = modules/ngx_php
+	url = https://github.com/rryqszq4/ngx_php.git
+[submodule "modules/ngx_http_php_session"]
+	path = modules/ngx_http_php_session
+	url = https://github.com/replay/ngx_http_php_session.git
+[submodule "modules/ngx_http_php_memcache_standard_balancer"]
+	path = modules/ngx_http_php_memcache_standard_balancer
+	url = https://github.com/replay/ngx_http_php_memcache_standard_balancer.git
+[submodule "modules/ngx_form_auth"]
+	path = modules/ngx_form_auth
+	url = https://github.com/veruu/ngx_form_auth.git
+[submodule "modules/nginx-push-stream-module"]
+	path = modules/nginx-push-stream-module
+	url = https://github.com/wandenberg/nginx-push-stream-module.git
+[submodule "modules/nginx-http-rdns"]
+	path = modules/nginx-http-rdns
+	url = https://github.com/flant/nginx-http-rdns.git
+[submodule "modules/rds-csv-nginx-module"]
+	path = modules/rds-csv-nginx-module
+	url = https://github.com/openresty/rds-csv-nginx-module.git
+[submodule "modules/rds-json-nginx-module"]
+	path = modules/rds-json-nginx-module
+	url = https://github.com/openresty/rds-json-nginx-module.git
+[submodule "modules/redis2-nginx-module"]
+	path = modules/redis2-nginx-module
+	url = https://github.com/openresty/redis2-nginx-module.git
+[submodule "modules/nginx_upstream_module"]
+	path = modules/nginx_upstream_module
+	url = https://github.com/tarantool/nginx_upstream_module.git
+[submodule "modules/replace-filter-nginx-module"]
+	path = modules/replace-filter-nginx-module
+	url = https://github.com/openresty/replace-filter-nginx-module.git
+[submodule "modules/mod_rrd_graph"]
+	path = modules/mod_rrd_graph
+	url = https://github.com/evanmiller/mod_rrd_graph.git
+[submodule "modules/nginx-rtmp-module"]
+	path = modules/nginx-rtmp-module
+	url = https://github.com/arut/nginx-rtmp-module.git
+[submodule "modules/nginx-rtmpt-proxy-module"]
+	path = modules/nginx-rtmpt-proxy-module
+	url = https://github.com/kwojtek/nginx-rtmpt-proxy-module.git
+[submodule "modules/sass-nginx-module"]
+	path = modules/sass-nginx-module
+	url = https://github.com/mneudert/sass-nginx-module.git
+[submodule "modules/ngx_http_secure_download"]
+	path = modules/ngx_http_secure_download
+	url = https://github.com/replay/ngx_http_secure_download.git
+[submodule "modules/nginx-selective-cache-purge-module"]
+	path = modules/nginx-selective-cache-purge-module
+	url = https://github.com/wandenberg/nginx-selective-cache-purge-module.git
+[submodule "modules/set-cconv-nginx-module"]
+	path = modules/set-cconv-nginx-module
+	url = https://github.com/liseen/set-cconv-nginx-module.git
+[submodule "modules/ngx_http_set_hash"]
+	path = modules/ngx_http_set_hash
+	url = https://github.com/simplresty/ngx_http_set_hash.git
+[submodule "modules/set-misc-nginx-module"]
+	path = modules/set-misc-nginx-module
+	url = https://github.com/openresty/set-misc-nginx-module.git
+[submodule "modules/nginx-http-shibboleth"]
+	path = modules/nginx-http-shibboleth
+	url = https://github.com/nginx-shib/nginx-http-shibboleth.git
+[submodule "modules/nginx-http-slice"]
+	path = modules/nginx-http-slice
+	url = https://github.com/alibaba/nginx-http-slice.git
+[submodule "modules/ngx_small_light"]
+	path = modules/ngx_small_light
+	url = https://github.com/cubicdaiya/ngx_small_light.git
+[submodule "modules/socks-nginx-module"]
+	path = modules/socks-nginx-module
+	url = https://github.com/dannote/socks-nginx-module.git
+[submodule "modules/nginx-sorted-querystring-module"]
+	path = modules/nginx-sorted-querystring-module
+	url = https://github.com/wandenberg/nginx-sorted-querystring-module.git
+[submodule "modules/sphinx2-nginx-module"]
+	path = modules/sphinx2-nginx-module
+	url = https://github.com/reeteshranjan/sphinx2-nginx-module.git
+[submodule "modules/spnego-http-auth-nginx-module"]
+	path = modules/spnego-http-auth-nginx-module
+	url = https://github.com/stnoonan/spnego-http-auth-nginx-module.git
+[submodule "modules/srcache-nginx-module"]
+	path = modules/srcache-nginx-module
+	url = https://github.com/openresty/srcache-nginx-module.git
+[submodule "modules/ngx_sssd_info"]
+	path = modules/ngx_sssd_info
+	url = https://github.com/veruu/ngx_sssd_info.git
+[submodule "modules/nginx-static-etags"]
+	path = modules/nginx-static-etags
+	url = https://github.com/mikewest/nginx-static-etags.git
+[submodule "modules/nginx-statsd"]
+	path = modules/nginx-statsd
+	url = https://github.com/zebrafishlabs/nginx-statsd.git
+[submodule "modules/nginx-sticky-module-ng"]
+	path = modules/nginx-sticky-module-ng
+	url = https://bitbucket.org/nginx-goodies/nginx-sticky-module-ng.git
+[submodule "modules/ngx-stomp"]
+	path = modules/ngx-stomp
+	url = https://github.com/Taymindis/ngx-stomp.git
+[submodule "modules/nginx-module-sts"]
+	path = modules/nginx-module-sts
+	url = https://github.com/vozlt/nginx-module-sts.git
+[submodule "modules/ngx_http_subrange_module"]
+	path = modules/ngx_http_subrange_module
+	url = https://github.com/Qihoo360/ngx_http_subrange_module.git
+[submodule "modules/ngx_http_substitutions_filter_module"]
+	path = modules/ngx_http_substitutions_filter_module
+	url = https://github.com/yaoweibin/ngx_http_substitutions_filter_module.git
+[submodule "modules/summarizer-nginx-module"]
+	path = modules/summarizer-nginx-module
+	url = https://github.com/reeteshranjan/summarizer-nginx-module.git
+[submodule "modules/nginx-upsync-module"]
+	path = modules/nginx-upsync-module
+	url = https://github.com/weibocom/nginx-upsync-module.git
+[submodule "modules/nginx-stream-upsync-module"]
+	path = modules/nginx-stream-upsync-module
+	url = https://github.com/xiaokai-wang/nginx-stream-upsync-module.git
+[submodule "modules/nginx-module-sysguard"]
+	path = modules/nginx-module-sysguard
+	url = https://github.com/vozlt/nginx-module-sysguard.git
+[submodule "modules/nginx_tcp_proxy_module"]
+	path = modules/nginx_tcp_proxy_module
+	url = https://github.com/yaoweibin/nginx_tcp_proxy_module.git
+[submodule "modules/testcookie-nginx-module"]
+	path = modules/testcookie-nginx-module
+	url = https://github.com/kyprizel/testcookie-nginx-module.git
+[submodule "modules/ngx_http_types_filter"]
+	path = modules/ngx_http_types_filter
+	url = https://github.com/flygoast/ngx_http_types_filter.git
+[submodule "modules/nginx-unzip-module"]
+	path = modules/nginx-unzip-module
+	url = https://github.com/youzee/nginx-unzip-module.git
+[submodule "modules/nginx-upload-module"]
+	path = modules/nginx-upload-module
+	url = https://github.com/fdintino/nginx-upload-module.git
+[submodule "modules/nginx-upload-progress-module"]
+	path = modules/nginx-upload-progress-module
+	url = https://github.com/masterzen/nginx-upload-progress-module.git
+[submodule "modules/nginx-module-url"]
+	path = modules/nginx-module-url
+	url = https://github.com/vozlt/nginx-module-url.git
+[submodule "modules/nginx-http-user-agent"]
+	path = modules/nginx-http-user-agent
+	url = https://github.com/alibaba/nginx-http-user-agent.git
+[submodule "modules/nginx-video-thumbextractor-module"]
+	path = modules/nginx-video-thumbextractor-module
+	url = https://github.com/wandenberg/nginx-video-thumbextractor-module.git
+[submodule "modules/nginx-vod-module"]
+	path = modules/nginx-vod-module
+	url = https://github.com/kaltura/nginx-vod-module.git
+[submodule "modules/nginx-module-vts"]
+	path = modules/nginx-module-vts
+	url = https://github.com/vozlt/nginx-module-vts.git
+[submodule "modules/ngx_webp"]
+	path = modules/ngx_webp
+	url = https://github.com/vladbondarenko/ngx_webp.git
+[submodule "modules/xss-nginx-module"]
+	path = modules/xss-nginx-module
+	url = https://github.com/openresty/xss-nginx-module.git
+[submodule "modules/mod_zip"]
+	path = modules/mod_zip
+	url = https://github.com/evanmiller/mod_zip.git
