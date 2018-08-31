@@ -93,6 +93,7 @@ All modules which have git repo are added as submodule under modules.
     * [nginx-sorted-querystring-module](#nginx-sorted-querystring-module "Expose a variable with the parameters ordered to be used as a cache_key")
     * [nginx-upload-module](#nginx-upload-module "Handles file uploads using multipart/form-data encoding (RFC 1867)")
     * [nginx-upload-progress-module](#nginx-upload-progress-module "Tracks and reports upload progress")
+    * [nginx-upstream-fair](#nginx-upstream-fair "Distributes incoming requests to least-busy servers")
     * [nginx-upsync-module](#nginx-upsync-module "Syncing upstreams from etcd or consul, needn’t reload nginx(HTTP Module)")
     * [nginx-vod-module](#nginx-vod-module "Repackage MP4 files for streaming in HLS, HDS, MSS and DASH")
     * [ngx_auto_lib](#ngx_auto_lib "Reuse pre-compiled/installed versions of OpenSSL, PCRE and Zlib")
@@ -159,7 +160,7 @@ All modules which have git repo are added as submodule under modules.
     * [nginx-stream-upsync-module](#nginx-stream-upsync-module "Syncing upstreams from etcd or consul, needn’t reload nginx(TCP Module)")
     * [nginx_tcp_proxy_module](#nginx_tcp_proxy_module "TCP proxy with NGINX, includes health check and status monitor")
     * [nginx-unzip-module](#nginx-unzip-module "serve file directly from the archives")
-    * [nginx-upstream-fair](#nginx-upstream-fair "Distributes incoming requests to least-busy servers")
+    
     * [nginx_upstream_module](#nginx_upstream_module "HTTP Upstream module for communicate with Tarantool DB")
     * [nginx-video-thumbextractor-module](#nginx-video-thumbextractor-module "NGINX module to extract thumbs from a video file")
     * [ngx_dynamic_limit_req_module](#ngx_dynamic_limit_req_module "Dynamic lock IP and release regularly")
@@ -969,16 +970,6 @@ serve file directly from the archives
 
 ##### First Compile Error:
     ../modules/nginx-unzip-module/ngx_http_unzip_module.c:35:17: fatal error: zip.h: No such file or directory
-
-### nginx-upstream-fair
-Distributes incoming requests to least-busy servers
-
-##### Compile Command:
-    --add-dynamic-module=../modules/nginx-upstream-fair
-
-##### First Compile Error:
-    ../modules/nginx-upstream-fair/ngx_http_upstream_fair_module.c: In function ‘ngx_http_upstream_init_fair_rr’:
-    ../modules/nginx-upstream-fair/ngx_http_upstream_fair_module.c:543:28: error: ‘ngx_http_upstream_srv_conf_t {aka struct ngx_http_upstream_srv_conf_s}’ has no member named ‘default_port’
 
 ### nginx_upstream_module
 HTTP Upstream module for communicate with Tarantool DB
