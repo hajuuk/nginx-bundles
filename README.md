@@ -898,3 +898,395 @@ A STOMP upstream module on nginx, send http to any AMQ which has stomp
 ****
 
 # Unable to compile
+
+## healthcheck_nginx_upstreams
+
+Health check HTTP servers inside an upstream
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/healthcheck_nginx_upstreams
+
+### First Compile Error:
+
+    ../modules/healthcheck_nginx_upstreams/ngx_http_healthcheck_module.c: In function ‘ngx_http_healthcheck_mark_finished’:
+    ../modules/healthcheck_nginx_upstreams/ngx_http_healthcheck_module.c:308:44: error: ‘ngx_http_upstream_srv_conf_t {aka struct ngx_http_upstream_srv_conf_s}’ has no member named ‘health_failcount’
+
+## ip2location-nginx
+
+Identifies the country name/code of an IP address
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/ip2location-nginx
+
+### First Compile Error:
+
+    ../modules/ip2location-nginx/ngx_http_ip2location_module.c:9:63: fatal error: ../ip2location-c-7.0.0/libIP2Location/IP2Location.h: No such file or directory
+
+## limit_upload_rate
+
+Limit the transmission rate of request body from a client
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/limit_upload_rate
+
+### First Compile Error:
+
+    ../modules/limit_upload_rate/ngx_http_limit_upload_module.c:116:8: error: unknown type name ‘ngx_http_input_body_filter_pt’
+
+## lua-upstream-nginx-module
+
+Make Nginx http upstream configurations scriptable by Lua
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/lua-upstream-nginx-module
+
+### First Compile Error:
+
+    ../modules/lua-upstream-nginx-module/src/ngx_http_lua_upstream_module.c:15:21: fatal error: lauxlib.h: No such file or directory
+
+## modjpeg-nginx
+
+Add overlays and logos to JPEGs on-the-fly without degrading the quality
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/modjpeg-nginx
+
+### First Compile Error:
+
+    ../modules/modjpeg-nginx/ngx_http_jpeg_filter_module.c:77:24: fatal error: libmodjpeg.h: No such file or directory
+
+## nginx-audio-track-for-hls-module
+
+Generate audio track for HTTP Live Streaming (HLS) streams on the fly
+
+### Prerequisite:
+
+    libavcodec-dev libavformat-dev
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx-audio-track-for-hls-module
+
+### First Compile Error:
+
+    ../modules/nginx-audio-track-for-hls-module/ngx_http_aac_module.c: In function ‘ngx_http_aac_extract_audio’:
+    ../modules/nginx-audio-track-for-hls-module/ngx_http_aac_module.c:210:5: error: ‘avcodec_copy_context’ is deprecated [-Werror=deprecated-declarations]
+
+## nginx-backtrace
+
+A NGINX module to dump backtrace case a worker process exits abnormally
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx-backtrace
+
+### First Compile Error:
+
+    ../modules/nginx-backtrace/ngx_backtrace_module.c: In function ‘ngx_backtrace_files’:
+    ../modules/nginx-backtrace/ngx_backtrace_module.c:187:11: error: implicit declaration of function ‘ngx_log_create’ [-Werror=implicit-function-declaration]
+
+## nginx-ey-balancer
+
+Provides a request queue for limiting concurrent requests
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx-ey-balancer
+
+### First Compile Error:
+
+    ../modules/nginx-ey-balancer/max_connections_module.c: In function ‘dispatch’:
+    ../modules/nginx-ey-balancer/max_connections_module.c:314:3: error: implicit declaration of function ‘ngx_http_upstream_connect’ -Werror=implicit-function-declaration]
+
+## nginx-gridfs
+
+NGINX module for serving files from MongoDB’s GridFS
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx-gridfs
+
+### First Compile Error:
+
+    make[1]: *** No rule to make target '../modules/nginx-gridfs/mongo-c-driver/src/*.h', needed by 'objs/addon/nginx-gridfs/ngx_http_gridfs_module.o'.  Stop.
+
+## nginx-limit-upstream
+
+Limits the maximum connections to each server in a upstream
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx-limit-upstream
+
+### First Compile Error:
+
+    ../modules/nginx-limit-upstream/ngx_http_limit_upstream_module.c: In function ‘ngx_http_limit_upstream_cleanup’:
+    ../modules/nginx-limit-upstream/ngx_http_limit_upstream_module.c:372:9: error: implicit declaration of function ‘ngx_http_upstream_connect’ [-Werror=implicit-function-declaration]
+
+## nginx_lua_module
+
+Embed the power of Lua into NGINX
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx_lua_module
+
+### First Compile Error:
+
+    ../modules/nginx_lua_module/src/ngx_http_lua_module.c: In function ‘ngx_http_lua_file_request_handler’:
+    ../modules/nginx_lua_module/src/ngx_http_lua_module.c:797:9: error: used struct type value where scalar is required
+
+## nginx_mod_akamai_g2o
+
+Restricts access to content to Akamai edge servers using G2O headers
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx_mod_akamai_g2o
+
+### First Compile Error:
+
+    ../modules/nginx_mod_akamai_g2o/ngx_http_akamai_g2o_module.c: In function ‘base64_signature_of_data’:
+    ../modules/nginx_mod_akamai_g2o/ngx_http_akamai_g2o_module.c:341:14: error: storage size of ‘hmac’ isn’t known
+
+## nginx-notice
+
+Serve static file to POST requests
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx-notice
+
+### First Compile Error:
+
+    ../modules/nginx-notice/ngx_http_notice_module.c: In function ‘ngx_http_notice_handler’:
+    ../modules/nginx-notice/ngx_http_notice_module.c:156:10: error: implicit declaration of function ‘ngx_http_discard_body’ [-Werror=implicit-function-declaration]
+
+## nginx_ocsp_proxy-module
+
+OCSP processing module designed for response caching
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx_ocsp_proxy-module
+
+### First Compile Error:
+
+    ../modules/nginx_ocsp_proxy-module/src/ngx_http_ocsp_proxy_module.c: In function ‘copy_ocsp_certid’:
+    ../modules/nginx_ocsp_proxy-module/src/ngx_http_ocsp_proxy_module.c:401:13: error: dereferencing pointer to incomplete type ‘OCSP_CERTID {aka struct ocsp_cert_id_st}’
+
+## nginx-selective-cache-purge-module
+
+A cache purge module that allows GLOB expressions like .jpg or /test
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx-selective-cache-purge-module
+
+### First Compile Error:
+
+    ../modules/nginx-selective-cache-purge-module/include/ngx_selective_cache_purge_module.h:11:33: fatal error: redis_nginx_adapter.h: No such file or directory
+
+## nginx-static-etags
+
+Generates etags for static content
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx-static-etags
+
+### First Compile Error:
+
+    ../modules/nginx-static-etags/ngx_http_static_etags_module.c: In function ‘ngx_http_static_etags_header_filter’:
+    ../modules/nginx-static-etags/ngx_http_static_etags_module.c:113:41: error: variable ‘log’ set but not used [-Werror=unused-but-set-variable]
+
+## nginx-statsd
+
+Adds the ability for NGINX to interacting with Statsd
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx-statsd
+
+### First Compile Error:
+
+    ../modules/nginx-statsd/ngx_http_statsd.c:367: undefined reference to `ngx_udp_connect'
+
+## nginx-sticky-module-ng
+
+Adds an upstream server persistance using cookies
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx-sticky-module-ng
+
+### First Compile Error:
+
+    ../modules/nginx-sticky-module-ng/ngx_http_sticky_misc.c: In function ‘ngx_http_sticky_misc_sha1’:
+    ../modules/nginx-sticky-module-ng/ngx_http_sticky_misc.c:176:15: error: ‘SHA_DIGEST_LENGTH’ undeclared (first use in this function)
+
+## nginx_tcp_proxy_module
+
+TCP proxy with NGINX, includes health check and status monitor
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/nginx_tcp_proxy_module
+
+### First Compile Error:
+
+    ../modules/nginx_tcp_proxy_module/ngx_tcp_core_module.c:33:40: error: ‘NGX_CONF_MULTI’ undeclared here (not in a function)
+
+## ngx_http_set_hash
+
+Set a variable to hash functions, including MD5, SHA1 and Murmurhash 2
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/ngx_http_set_hash
+
+### First Compile Error:
+
+    ../modules/ngx_http_set_hash/ngx_http_set_hash_module.c:7:20: fatal error: ndk.h: No such file or directory
+
+## ngx_mongo
+
+Upstream module for direct communication with MongoDB
+
+### Prerequisite:
+
+    libyajl
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/ngx_mongo
+
+### First Compile Error:
+
+    ../modules/ngx_mongo/src/ngx_http_mongo_module.c: In function ‘ngx_http_mongo_create_predefined_request’:
+    ../modules/ngx_mongo/src/ngx_http_mongo_module.c:681:28: error: variable ‘mctx’ set but not used [-Werror=unused-but-set-variable]
+
+## ngx_php
+
+Embedded php script language for nginx-module
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/ngx_php
+
+### First Compile Error:
+
+    ../modules/ngx_php/src/php/php_ngx.h:10:17: fatal error: php.h: No such file or directory
+
+## ngx_sssd_info
+
+Retrieves and exposes additional user attributes from SSSD
+
+### Pre:
+
+    libdbus-1-dev
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/ngx_sssd_info
+
+### First Compile Error:
+
+    In file included from ../modules/ngx_sssd_info/ngx_sssd_info.c:5:0:
+/usr/include/dbus-1.0/dbus/dbus.h:29:33: fatal error: dbus/dbus-arch-deps.h: No such file or directory
+
+## ngx_webp
+
+Webp wrapper to convert files on the fly
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/ngx_webp
+
+### First Compile Error:
+
+    ../modules/ngx_webp/src/ngx_http_webp_module.c: In function ‘ngx_http_webp_handler’:
+    ../modules/ngx_webp/src/ngx_http_webp_module.c:63:11: error: variable ‘parent_pid’ set but not used [-Werror=unused-but-set-variable]
+
+## replace-filter-nginx-module
+
+Performs regular expression substitutions on response bodies
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/replace-filter-nginx-module
+
+### First Compile Error:
+
+    error: ngx_http_replace_filter_module requires agentzh's sregex library.
+
+## set-cconv-nginx-module
+
+Conversion between Simplified and Traditional Chinese at rewrite phase
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/set-cconv-nginx-module
+
+### First Compile Error:
+
+    ../modules/set-cconv-nginx-module/src/ngx_http_set_cconv.c:3:17: fatal error: ndk.h: No such file or directory
+
+## socks-nginx-module
+
+SOCKS5 proxy module for NGINX
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/socks-nginx-module
+
+### First Compile Error:
+
+    ../modules/socks-nginx-module/src/ngx_http_socks_upstream.c: In function ‘ngx_http_socks_upstream_send_response’:
+    ../modules/socks-nginx-module/src/ngx_http_socks_upstream.c:2755:45: error: ‘ngx_http_file_cache_t {aka struct ngx_http_file_cache_s}’ has no member named ‘temp_path’; did you mean ‘use_temp_path’?
+
+## stream-echo-nginx-module (trying)
+
+Provides familiar shell-style commands to NGINX stream servers
+
+### Tried:
+
+    --with-stream=dynamic
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/stream-echo-nginx-module
+
+### First Compile Error:
+
+    ../modules/stream-echo-nginx-module/src/ngx_stream_echo_module.c: In function ‘ngx_stream_echo_discarded_request_handler’:
+    ../modules/stream-echo-nginx-module/src/ngx_stream_echo_module.c:1146:9: error: implicit declaration of function ‘ngx_stream_close_connection’
+
+## summarizer-nginx-module
+
+An upstream module for Summarizer 1.0
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/summarizer-nginx-module
+
+### First Compile Error:
+
+    ../modules/summarizer-nginx-module/src/ngx_http_summarizer_proto.c:22:21: error: ‘szf’ defined but not used [-Werror=unused-const-variable=]
+
+## traffic-accounting-nginx-module
+
+Realtime traffic and status code monitoring (HTTP + Stream)
+
+### Compile Command:
+
+    --add-dynamic-module=../modules/traffic-accounting-nginx-module
+
+### First Compile Error:
+
+    make: *** No rule to make target 'build', needed by 'default'.  Stop.
