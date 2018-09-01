@@ -96,7 +96,7 @@
 	url = https://github.com/ezmobius/nginx-ey-balancer.git
 [submodule "modules/nginx-upstream-fair"]
 	path = modules/nginx-upstream-fair
-	url = https://github.com/gnosek/nginx-upstream-fair.git
+	url = https://github.com/itoffshore/nginx-upstream-fair.git
 [submodule "modules/ngx-fancyindex"]
 	path = modules/ngx-fancyindex
 	url = https://github.com/aperezdc/ngx-fancyindex.git
